@@ -12,6 +12,20 @@ namespace Test1
         string type;
         string description;
 
+    void setShape()
+        {
+            sides = 0;
+            type = "";
+            description = "";
+
+
+        }
+    
+    void displayShape()
+        {
+            Console.WriteLine("This has worked");
+        }
+
 
     }
 
